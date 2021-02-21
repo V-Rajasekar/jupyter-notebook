@@ -18,8 +18,9 @@ and set Gradle in the system path (Environment variables)
 - gradlew installKernel
 
 Troubleshoot: To fix python classpath issue
- Run ,/gradlew installKernel --python python
-Note: sometimes java kernel would have already installed so better to check with jupyter kernelspec list
+ $ ./gradlew installKernel --python python
+Note: sometimes java kernel would have already installed so better to check with command 
+$ `jupyter kernelspec list`
 
 Checkout output:
 C:\Users\Dell\IJava>jupyter kernelspec list
